@@ -28,7 +28,7 @@
    pip install -r requirements.txt
    # pip3 install -r requirements.txt
    ```
-   **【注意】** 如果要仅安装 CPU 版的 PyTorch，请先保证电脑可以正常访问 pytorch.org，将 requirements.txt 中的 `torch` 和 `torchvision` 两行去掉，然后在 pytorch.org 按照说明安装对应的包，在执行上述命令安装其他包即可。
+   **【注意】** 如果要仅安装 CPU 版的 PyTorch，请先保证电脑可以正常访问 pytorch.org，将 requirements.txt 中的 `torch` 和 `torchvision` 两行去掉，然后在 pytorch.org 按照说明安装对应的包，再执行上述命令安装其他包即可。
    
    (3) 执行程序。
    ```bash
