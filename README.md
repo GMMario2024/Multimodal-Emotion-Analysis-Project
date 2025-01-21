@@ -49,3 +49,9 @@
 
 5. 自定义超参数
    - 你可以自由修改 utils 里的 classifier.py，以及 feature 里的 image.py 和 text.py，调整里面模型的超参数。如果你的计算机内存较小，适当调参可能会让你的计算机勉强带动模型。
+
+6. 参考使用库
+   - sklearn：分类、文本特征提取（TF-IDF）
+   - skimage：图像特征提取（HOG、HSV）
+   - transformers：BERT 提取文本特征
+   - torchvision：CNN 提取图像特征
