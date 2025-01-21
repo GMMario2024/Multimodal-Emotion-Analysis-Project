@@ -52,6 +52,7 @@
 
 5. 参考使用库
    - sklearn：分类、文本特征提取（TF-IDF）
+   - gensim：文本特征提取（Word2Vec）
    - skimage：图像特征提取（HOG、HSV）
    - transformers：BERT 提取文本特征
    - torchvision：CNN 提取图像特征
