@@ -42,15 +42,15 @@
    export HF_ENDPOINT=https://hf-mirror.com
    ```
 
-4. 自定义数据集
+3. 自定义数据集
    - 你的数据集应该包含 data 文件夹，train.txt 和 test_without_label.txt，按照本项目中 train.txt 和 test_without_label.txt 的格式填充文件名（guid，不包含扩展名）和标签（在 train.txt 中为 positive、negative 或 netural，在 test_without_label.txt 中为 null）。data 文件夹中文本文件（txt）和图片文件（jpg）的文件名必须与 train.txt 和 test_without_label.txt 一致。
    - 将你的数据集放置在本项目的 in 文件夹中（可以删除原有内容）。
    - 执行 main.py，你的测试集结果会存在 out/test.txt 中。
 
-5. 自定义超参数
+4. 自定义超参数
    - 你可以自由修改 utils 里的 classifier.py，以及 feature 里的 image.py 和 text.py，调整里面模型的超参数。如果你的计算机内存较小，适当调参可能会让你的计算机勉强带动模型。
 
-6. 参考使用库
+5. 参考使用库
    - sklearn：分类、文本特征提取（TF-IDF）
    - skimage：图像特征提取（HOG、HSV）
    - transformers：BERT 提取文本特征
